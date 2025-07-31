@@ -9,3 +9,10 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
+.caixa{
+    background-color: greenyellow;
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 30px;    
+}
