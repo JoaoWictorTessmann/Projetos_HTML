@@ -1,0 +1,73 @@
+/*Titulos*/
+h1, h2{
+    text-align: left;
+    color: rgb(120, 75, 16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+
+/*Quebra de tela*/
+hr{
+    background-color: rgb(138, 65, 198);
+    width: 100%;
+    height: 2px;
+}
+
+/*Cargos*/
+li{
+    text-align: left;
+    color: rgb(38, 55, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;    
+}
+
+/*Nome*/
+.nome{
+    text-align: center;
+    color: rgb(168, 89, 4);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+
+/*Descrição*/
+.texto{
+    text-align: left;
+    color: rgb(38, 55, 49);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Foto Perfil*/
+.fotoPerfil{
+width: 400px;
+border-radius: 35px;
+}
+
+/*icones*/
+.icons{
+width: 30px;
+}
+
+/*Fonte dos Links*/
+.links{
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 400;
+text-decoration: none;
+}
+
+/*Titulos Experiencias Proficionais*/
+.expTitulo{
+    color: rgb(122, 35, 5);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+/*Projetos*/
+.Projeto{
+    color: rgb(35, 35, 117);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
