@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #4a90e2 0%, #50c9c3 100%);
+    background: linear-gradient(135deg, #bb9c6b 0%, #4f3305 100%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@ body{
 }
 
 .container{
+    animation: fadeIn .75s ease-in;
     max-width: 800px;
     padding: 40px 20px;
 }
@@ -31,9 +32,9 @@ h1{
 .subtitle{
     font-size: 1.2rem;
     font-size: 300;
-    margin-bottom: 50px;
-    letter-spacing: 1px;
-    opacity: .8;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    opacity: .9;
     line-height: 1.5;
 }
 
@@ -46,22 +47,57 @@ h1{
     width: 50px;
     height: 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
     font-size: 24px;
-    margin: 15px;
+    margin: 10px;
+    margin-bottom: 20px;
 }
 
 .social-icon img{
     width: 50px;
     height: 50px;
-}
-
-.social-icon:hover{
-    box-shadow: 0px 0px 10px 4px rgb(0, 0, 0, 0.6);
-    background-color: rgb(71, 168, 175);
-    border-radius: 50%;
     }
 
-.btn-more{
 
+.social-icon:hover{
+    filter: drop-shadow(0px 0px 10px rgb(225, 236, 78));
+    transform: translateY(-3px);
+    transition: all 0.6s ;
+    border-radius: 50px;
+}    
+
+.btn-more{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 300;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 15px 35px;
+    transition: all 0.3s ease;
+    border-radius: 50px;
+    backdrop-filter: blur();
+    border: 1px solid black;
+}
+.btn-more:hover{
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.358);
+}
+
+@media (max-width: 768px){
+ h1{
+    font-size: 2.5rem;
+ }
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0%;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
