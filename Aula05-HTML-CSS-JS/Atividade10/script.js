@@ -1,12 +1,14 @@
-function verde(){
-const corv = document.body("verde");
-corv.style.background = "green"
-}
-function amarelo(){
-const cora = document.body("amarelo");
-cora.style.background = "yellow"
-}
+const corpo = document.body;
+
 function vermelho(){
-const corV = document.body("vermelho");
-corV.style.background = "red"
+const corv = document.getElementById("vermelho");
+corpo.style.background = "red"
+}
+function azul(){
+const cora = document.getElementById("azul");
+corpo.style.background = "blue"
+}
+function verde(){
+const corV = document.getElementById("verde");
+corpo.style.background = "green"
 }
