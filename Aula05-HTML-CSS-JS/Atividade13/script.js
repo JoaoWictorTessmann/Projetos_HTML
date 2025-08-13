@@ -1,18 +1,15 @@
 let cliques = 0;
 const contador = document.getElementById("contador");
-const botao = document.getElementById("botao");
 
 function aumentarValor() {
     cliques++;
-    contador.textContent = `Cliques: ${cliques}`;
+    contador.textContent = "Cliques:"+ cliques;
 
     if (cliques < 5) {
-        contador.style.color = 'blue';
-    } else if (cliques < 10) {
-        contador.style.color = 'green';
+        contador.style.color = "green";
+    } else if (cliques >= 5 && cliques < 10) {
+        contador.style.color = "orange";
     } else {
-        contador.style.color = 'red';
+        contador.style.color = "red";
     }
 }
-
-botao.addEventListener('click', aumentarValor);
